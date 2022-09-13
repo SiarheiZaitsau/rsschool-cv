@@ -1,1 +1,1 @@
-https://SiarheiZaitsau.github.io/rsschool-cv/cv
+https://SiarheiZaitsau.github.io/rsschool-cv/
