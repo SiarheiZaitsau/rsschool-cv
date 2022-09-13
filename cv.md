@@ -32,3 +32,19 @@ for (var i = 1; i <= 20; i++) {
   else console.log(i);
 }
 ```
+
+#### Work Experience
+
+- QWERTY123
+  October 2021 - June 2022 as Frontend Developer
+
+#### Education and courses
+
+Yanka Kupala State University of Grodno
+Faculty of History, Communication and Tourism
+
+I don't like courses.
+
+#### English
+
+My English level is B1
