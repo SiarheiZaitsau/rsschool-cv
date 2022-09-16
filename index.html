@@ -16,18 +16,20 @@
   <header class="header">
     <nav class="nav">
       <ul class="nav__list">
-        <li><a>About me</a></li>
-        <li><a>Skills </a></li>
-        <li><a>Contact </a></li>
-        <li><a>Education </a></li>
-        <li><a>Languages </a></li>
+        <li><a class="nav__link" href="#about">About me</a></li>
+        <li><a class="nav__link" href="#skills">Skills </a></li>
+        <li>
+          <a class="nav__link" href="#education">Education & Languages</a>
+        </li>
+        <li><a class="nav__link" href="#examples">Code examples</a></li>
+        <li><a class="nav__link" href="#contacts">Contact </a></li>
       </ul>
     </nav>
   </header>
   <body>
-    <section class="about">
+    <section class="about" id="about">
       <h2 class="title">About me</h2>
-      <img class="about__photo" src="./images/IMG_7128.JPG" alt="photo" />
+      <img class="about__photo" src="./images/photo.JPG" alt="photo" />
       <h4 class="about__name">Siarhei Zaitsau</h4>
       <p class="about__text">
         Dear HRs, My name is Sergey and I like to develop new applications. I
@@ -37,7 +39,7 @@
         skills, ability to learn, interest in web development.
       </p>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <h2 class="title">Skills</h2>
       <ul>
         <li>HTML</li>
@@ -48,6 +50,98 @@
         <li>Nodejs</li>
         <li>MongoDB</li>
         <li>Material-UI</li>
+      </ul>
+    </section>
+    <section class="education" id="education">
+      <h2 class="title">Education & Languages</h2>
+      <div class="flex">
+        <article class="education__info">
+          <h4 class="education__title">Education</h4>
+          <p class="education__text">
+            Yanka Kupala State University of Grodno Faculty of History,
+            Communication and Tourism
+          </p>
+        </article>
+        <article class="education__info">
+          <h4 class="education__title">English Level</h4>
+          <p class="education__text">English - B1</p>
+        </article>
+      </div>
+    </section>
+    <section class="code-examples" id="examples">
+      <h2 class="title">Code Examples</h2>
+      <pre class="code">
+        <code
+          >
+          for (var i = 1; i <= 20; i++) {
+            if (i % 15 == 0) {
+              console.log("FizzBuzz");
+            }
+            else if (i % 3 == 0) {
+              console.log("Fizz");
+            }
+            else if (i % 5 == 0) {
+              console.log("Buzz");
+          } 
+            else {
+             console.log(i);
+          }</code
+        >
+      </pre>
+    </section>
+    <section class="contacts" id="contacts">
+      <h2 class="title">Contacts</h2>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <a target="_blank" rel="noopener noreferrer" class="contacts__link">
+            <img class="contacts__icon" src="images/location.svg" />
+            <p>Grodno, Belarus</p></a
+          >
+        </li>
+        <li class="contacts__item">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="mailto:zaitsevser364@gmail.com"
+            class="contacts__link"
+          >
+            <img class="contacts__icon" src="images/email.svg" />
+            <p>zaitsevser364@gmail.com</p>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/SiarheiZaitsau"
+            class="contacts__link"
+          >
+            <img class="contacts__icon" src="images/github.svg" />
+            <p>SiarheiZaitsau</p></a
+          >
+        </li>
+        <li class="contacts__item">
+          <a
+            href="https://t.me/SiarheiZaitsau"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contacts__link"
+          >
+            <img class="contacts__icon" src="images/telegram.svg" />
+            <p>@SiarheiZaitsau</p></a
+          >
+        </li>
+        <li class="contacts__item">
+          <a
+            href="https://www.linkedin.com/in/sergey-zaitsev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="contacts__link"
+          >
+            <img class="contacts__icon" src="images/linkedin.svg" />
+            <p>Linkedin</p></a
+          >
+        </li>
       </ul>
     </section>
   </body>

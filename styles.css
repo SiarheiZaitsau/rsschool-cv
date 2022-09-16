@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif, "Roboto";
 }
+html {
+  scroll-behavior: smooth;
+}
 .header {
   background-color: #202026;
   height: 80px;
@@ -20,6 +23,10 @@
   width: 100%;
   list-style: none;
   justify-content: space-between;
+}
+.nav__link {
+  text-decoration: none;
+  color: inherit;
 }
 .about {
   padding: 40px;
@@ -50,4 +57,53 @@
   padding: 40px;
   background: #202026;
   color: #fff;
+}
+.education {
+  padding: 40px;
+}
+.education__title {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+.flex {
+  display: flex;
+}
+.education__info {
+  width: 50%;
+}
+.education__info:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.code-examples {
+  padding: 40px;
+  background: #202026;
+  color: #fff;
+}
+.code {
+  display: flex;
+}
+.contacts {
+  padding: 40px;
+}
+.contacts__icon {
+  width: 32px;
+  height: auto;
+  margin-right: 12px;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.contacts__list {
+  list-style: none;
+}
+.contacts__item {
+  margin-bottom: 8px;
+}
+.contacts__item:last-child {
+  margin-bottom: 0;
 }
